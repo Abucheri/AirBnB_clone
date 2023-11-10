@@ -141,4 +141,4 @@ $
 	- Write beautiful code that passes the pycodestyle checks.
 
 ### Project Authors:
-- O'Brien Abucheri <[Abucheri](abucheriobrien@gmail.com)>
+- O'Brien Abucheri <[Abucheri](https://github.com/Abucheri/)>
