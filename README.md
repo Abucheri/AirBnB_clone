@@ -9,6 +9,8 @@
 This is the first step towards building your first full web application: the ___AirBnB clone___. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
 </p>
 
+In this first part We will be building a console application to carry out ___CRUD___, ___serialization___ and ___deserialization___ functions for the app. The console will also be creating, updating and destroting/deleting objects.
+
 <p>
 Each task is linked and will help you to:
 
