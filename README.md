@@ -1,3 +1,5 @@
+![the logo](https://github.com/Abucheri/AirBnB_clone/assets/24778489/c7fb7d38-1adb-4558-aad9-6a7fe23f9070)
+
 # 0x00. AirBnB clone - The console
 
 ## Background Context
@@ -121,3 +123,8 @@ EOF  help  quit
 $
 ```
 <p>All tests should also pass in non-interactive mode: `$ echo "python3 -m unittest discover tests" | bash`</p>
+
+![console_map](https://github.com/Abucheri/AirBnB_clone/assets/24778489/78485517-4033-45b3-b304-38e58fd30e32)
+
+
+
