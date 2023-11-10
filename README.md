@@ -139,3 +139,6 @@ $
 
 1. Be pycodestyle compliant!
 	- Write beautiful code that passes the pycodestyle checks.
+
+### Project Authors:
+- O'Brien Abucheri <abucheriobrien@gmail.com>
