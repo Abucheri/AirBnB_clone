@@ -127,4 +127,12 @@ $
 ![console_map](https://github.com/Abucheri/AirBnB_clone/assets/24778489/78485517-4033-45b3-b304-38e58fd30e32)
 
 
-
+0. README, AUTHORS
+	- Write a `README.md`:
+		- description of the project
+		- description of the command interpreter:
+			- how to start it
+			- how to use it
+			- examples
+	- You should have an `AUTHORS` file at the root of your repository, listing all individuals having contributed content to the repository. For format, reference [Docker’s AUTHORS page](https://github.com/moby/moby/blob/master/AUTHORS)
+	- You should use branches and pull requests on GitHub - it will help you as team to organize your work
