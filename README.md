@@ -582,5 +582,11 @@ $
 				- `user_id`: string - empty string: it will be the `User.id`
 				- `text`: string - empty string
 
+10. Console 1.0
+	- Update `FileStorage` to manage correctly serialization and deserialization of all our new classes: `Place`, `State`, `City`, `Amenity` and `Review`
+	- Update your command interpreter (`console.py`) to allow those actions: `show`, `create`, `destroy`, `update` and `all` with all classes created previously.
+	- Enjoy your first console!
+	- ___No unittests needed for the console___
+
 ### Project Authors:
 - O'Brien Abucheri <[Abucheri](https://github.com/Abucheri/)>
