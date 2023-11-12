@@ -6,11 +6,17 @@ import cmd
 from models.base_model import BaseModel
 from models import storage
 from models.user import User
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.place import Place
+from models.review import Review
 
 
 def valid_classes(class_name):
     """Check if the given class name is a valid class in the project."""
-    valid_classes_list = ["BaseModel", "User"]
+    valid_classes_list = ["BaseModel", "User", "State", "City", "Amenity",
+                          "Place", "Review"]
     return class_name in valid_classes_list
 
 
