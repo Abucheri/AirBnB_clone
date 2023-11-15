@@ -5,11 +5,87 @@ from unittest.mock import patch
 from io import StringIO
 import os
 from console import HBNBCommand
+from console import parse_line
+from console import valid_classes
 from models import storage
+import uuid
 
 
 class TestConsole(unittest.TestCase):
     """Test cases for the console.py script"""
+
+    def test_prompt_displayed(self):
+        """Test the prompt displayed for the console."""
+        cmd_obj = HBNBCommand()
+        self.assertEqual(cmd_obj.prompt, '(hbnb) ')
+
+    def test_emptyline(self):
+        """Test emptyline command"""
+        with patch('sys.stdout', new=StringIO()) as fake_out:
+            cmd_obj = HBNBCommand()
+            cmd_obj.onecmd('')
+            self.assertEqual(fake_out.getvalue(), '')
+
+    def test_parse_line_with_patch(self):
+        """Test the 'parse_line' method correctly parses a line into a command
+        name and a string containing the arguments.
+        """
+        with patch('sys.stdout', new=StringIO()) as fake_out:
+            parse_line("show BaseModel {}".format(uuid.uuid4()))
+            expected_output = ['show', 'BaseModel', '1234']
+            self.assertEqual(parse_line("show BaseModel 1234"),
+                             expected_output)
+
+    def test_valid_classes_with_patch_imported(self):
+        """The 'valid_classes' method correctly checks if the given class
+        name is a valid class in the project.
+        """
+        with patch('sys.stdout', new=StringIO()) as fake_out:
+            result = valid_classes('BaseModel')
+            self.assertEqual(result, True)
+
+    def test_do_update_with_valid_id_with_patch_imported_fixed(self):
+        """The 'do_update' method updates an instance based on the
+        class name and id correctly when a valid id is provided.
+        """
+        with patch('sys.stdout', new=StringIO()) as fake_out:
+            cmd_obj = HBNBCommand()
+            cmd_obj.do_create('BaseModel')
+            obj_id = fake_out.getvalue().strip()
+            cmd_obj.do_update(f'BaseModel {obj_id} name "John Doe"')
+            obj = storage.all()['BaseModel.{}'.format(obj_id)]
+            self.assertIsNotNone(obj)
+            self.assertEqual(obj.name, "John Doe")
+
+    def test_do_EOF_exits_program(self):
+        """The 'do_EOF' method exits the program with EOF (Ctrl+D) when
+        called.
+        """
+        with patch('sys.stdout', new=StringIO()) as fake_out:
+            cmd_obj = HBNBCommand()
+            cmd_obj.onecmd("EOF")
+            self.assertEqual(fake_out.getvalue(), '')
+            self.assertTrue(cmd_obj.do_EOF(None))
+
+    def test_help_quit(self):
+        """The 'help_quit' method prints help documentation
+        for the quit command.
+        """
+        cmd_obj = HBNBCommand()
+        with patch('sys.stdout', new=StringIO()) as fake_out:
+            cmd_obj.help_quit()
+            self.assertEqual(fake_out.getvalue(),
+                             "Quit command to exit the program\n")
+
+    def test_help_EOF_fixed(self):
+        """The 'help_EOF' method prints help documentation
+        for the EOF command.
+        """
+        cmd_obj = HBNBCommand()
+        with patch('sys.stdout', new=StringIO()) as fake_out:
+            cmd_obj.help_EOF()
+            self.assertEqual(fake_out.getvalue(),
+                             "Exit the program with EOF (Ctrl+D)\n")
 
     def test_quit_command(self):
         """Test the quit command"""
@@ -79,7 +155,7 @@ class TestConsole(unittest.TestCase):
         with patch('sys.stdout', new=StringIO()) as f:
             HBNBCommand().onecmd("create BaseModel")
             HBNBCommand().onecmd("create BaseModel")
-            HBNBCommand().onecmd("count BaseModel")
+            HBNBCommand().onecmd("BaseModel.count()")
             output = f.getvalue()
             self.assertEqual(output.strip(), "2")
 

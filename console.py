@@ -196,6 +196,7 @@ class HBNBCommand(cmd.Cmd):
         else:
             # Handle the case when an invalid class is provided
             print("** class doesn't exist **")
+            return
         print(object_list)
 
     def do_update(self, arg):
