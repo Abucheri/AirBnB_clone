@@ -123,6 +123,13 @@ class HBNBCommand(cmd.Cmd):
             try:
                 if valid_classes(arg):
                     new_instance = eval(arg)()
+                    for prop in new_instance.__class__.__dict__.keys():
+                        if (
+                            prop != '__class__' and prop != 'id' and
+                            prop != 'created_at'
+                            and prop != 'updated_at'
+                        ):
+                            setattr(new_instance, prop, "")
                     new_instance.save()
                     print(new_instance.id)
                 else:
