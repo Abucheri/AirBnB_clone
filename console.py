@@ -117,25 +117,15 @@ class HBNBCommand(cmd.Cmd):
 
     def do_create(self, arg):
         """Create a new instance of HBNB, save it, and print the id."""
-        if not arg:
+        args = parse_line(arg)
+        if not args:
             print("** class name missing **")
+        elif not valid_classes(args[0]):
+            print("** class doesn't exist **")
         else:
-            try:
-                if valid_classes(arg):
-                    new_instance = eval(arg)()
-                    for prop in new_instance.__class__.__dict__.keys():
-                        if (
-                            prop != '__class__' and prop != 'id' and
-                            prop != 'created_at'
-                            and prop != 'updated_at'
-                        ):
-                            setattr(new_instance, prop, "")
-                    new_instance.save()
-                    print(new_instance.id)
-                else:
-                    print("** class doesn't exist **")
-            except Exception:
-                print("** class doesn't exist **")
+            new_instance = eval(args[0])()
+            print(new_instance.id)
+            storage.save()
 
     def do_show(self, arg):
         """Print the string representation of an instance."""
