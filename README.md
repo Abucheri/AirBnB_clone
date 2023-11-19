@@ -728,6 +728,14 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 
  	<img width="2160" alt="task 0" src="https://github.com/Abucheri/AirBnB_clone/assets/24778489/529647ac-dd5d-4cf7-82d9-0dc348b08363">
 
+1. Head styling
+	- Write an HTML page that displays a header and a footer by using the `style` tag in the `head` tag (same as `0-index.html`)
+	- Requirements:
+		- You must use the `header` and `footer` tags
+		- You are not allowed to import any files
+		- No inline styling
+		- You must use the `style` tag in the `head` tag
+	- The layout must be exactly the same as `0-index.html`
 
 ### Project Authors:
 - O'Brien Abucheri <[Abucheri](https://github.com/Abucheri/)>
