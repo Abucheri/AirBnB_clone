@@ -1,0 +1,13 @@
+/* styles/3-footer.css */
+
+/* Footer Styles */
+footer {
+	background-color: #00FF00;
+	height: 60px;
+	width: 100%;
+	border-top: 1px #CCCCCC;
+	text-align: center;
+	line-height: 60px;
+	position: fixed;
+	bottom: 0;
+}

@@ -1,0 +1,17 @@
+/* styles/3-header.css */
+
+/* Header Styles */
+header {
+	background-color: #FF0000;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px #CCCCCC;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	background-image: url('../images/logo.png');
+	background-size: cover;
+	margin-left: 20px;
+}
