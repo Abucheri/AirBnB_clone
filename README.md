@@ -780,7 +780,8 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 			- `styles/3-common.css`: for the global style (i.e `body` style)
 			- `styles/3-header.css`: for the header style
 			- `styles/3-footer.css`: for the footer style
-	
+	<img width="2160" alt="task 3" src="https://github.com/Abucheri/AirBnB_clone/assets/24778489/0be4bd3c-746d-4fd3-88b9-048b7e6cebee">
+
 
 ### Project Authors:
 - O'Brien Abucheri <[Abucheri](https://github.com/Abucheri/)>
