@@ -726,5 +726,8 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 		- You are not allowed to use the `style` tag in the `head` tag
 		- Use inline styling for all your tags
 
+ 	<img width="2160" alt="task 0" src="https://github.com/Abucheri/AirBnB_clone/assets/24778489/529647ac-dd5d-4cf7-82d9-0dc348b08363">
+
+
 ### Project Authors:
 - O'Brien Abucheri <[Abucheri](https://github.com/Abucheri/)>
