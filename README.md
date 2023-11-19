@@ -702,6 +702,7 @@ During this project, you will learn how to manipulate HTML and CSS languages. HT
 Before starting, please fork or clone the repository `AirBnB_clone` from your partner if you were not the owner of the previous project.
 
 ## More Info
+![hbnb_step1](https://github.com/Abucheri/AirBnB_clone/assets/24778489/9830de04-628b-4c7f-bc52-c13cca73a81a)
 
 
 ### Project Authors:
