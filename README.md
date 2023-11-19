@@ -824,7 +824,8 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 			- `styles/3-footer.css`: for the footer style
 			- `styles/4-filters.css`: for the filters style
 		- `4-index.html` ___won’t be W3C valid___, don’t worry, it’s temporary
-	
+	<img width="2160" alt="task 4" src="https://github.com/Abucheri/AirBnB_clone/assets/24778489/769ba558-0372-49a1-80a2-f9c0302b8678">
+
 
 
 ### Project Authors:
