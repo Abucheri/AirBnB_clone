@@ -2,16 +2,19 @@
 
 /* Header Styles */
 header {
-	background-color: #FF0000;
+	background-color: white;
+	border-bottom: 1px solid #CCCCCC;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	height: 70px;
 	width: 100%;
-	border-bottom: 1px #CCCCCC;
-	display: flex;
-	align-items: center;
 }
 
 .logo {
 	background-image: url('../images/logo.png');
-	background-size: cover;
+	background-repeat: no-repeat;
+	height: 60px;
 	margin-left: 20px;
+	width: 142px;
 }
