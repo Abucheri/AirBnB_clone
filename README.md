@@ -704,6 +704,27 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 ## More Info
 ![hbnb_step1](https://github.com/Abucheri/AirBnB_clone/assets/24778489/9830de04-628b-4c7f-bc52-c13cca73a81a)
 
+0. Inline styling
+	- Write an HTML page that displays a header and a footer.
+	- Layout:
+		- Body:
+			- no margin
+			- no padding
+		- Header:
+			- color #FF0000 (red)
+			- height: 70px
+			- width: 100%
+		- Footer:
+			- color #00FF00 (green)
+			- height: 60px
+			- width: 100%
+			- text `Best School` center vertically and horizontally
+			- always at the bottom at the page
+	- Requirements:
+		- You must use the `header` and `footer` tags
+		- You are not allowed to import any files
+		- You are not allowed to use the `style` tag in the `head` tag
+		- Use inline styling for all your tags
 
 ### Project Authors:
 - O'Brien Abucheri <[Abucheri](https://github.com/Abucheri/)>
