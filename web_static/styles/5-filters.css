@@ -1,0 +1,22 @@
+/* styles/5-filters.css */
+
+/* Filters Styles */
+.locations,
+.amenities {
+	height: 100%;
+	width: 25%;
+	border-right: 1px solid #DDDDDD;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+
+/* Title Styles */
+h3 {
+	font-weight: 600;
+}
+
+/* Subtitle Styles */
+h4 {
+	font-weight: 400;
+	font-size: 14px;
+}
