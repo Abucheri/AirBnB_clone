@@ -857,6 +857,7 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 			- `styles/3-footer.css`: for the footer style
 			- `styles/5-filters.css`: for the filters style
 	
+	<img width="2160" alt="task 5" src="https://github.com/Abucheri/AirBnB_clone/assets/24778489/f2493da6-00f7-4115-9f70-89e370e8554b">
 
 
 
