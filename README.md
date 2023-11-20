@@ -924,7 +924,8 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 			- `styles/3-footer.css`: for footer style
 			- `styles/6-filters.css`: for the filters style
 			- `styles/7-places.css`: for the places style
-	
+	<img width="2160" alt="task 7" src="https://github.com/Abucheri/AirBnB_clone/assets/24778489/8adcd9aa-2baa-4284-90e3-be75c56eafe1">
+
 
 ### Project Authors:
 - O'Brien Abucheri <[Abucheri](https://github.com/Abucheri/)>
