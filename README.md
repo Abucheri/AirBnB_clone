@@ -1038,5 +1038,12 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 	- Improve the Places section by using [Flexible boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) for all Place articles
 	- [Flexbox Froggy](https://flexboxfroggy.com/)
 
+11. Responsive design
+	- Improve the page by adding [responsive design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design) to display correctly in mobile or small screens.
+	- Examples:
+		- no horizontal scrolling
+		- redesign search bar depending of the width
+		- etc.
+
 ### Project Authors:
 - O'Brien Abucheri <[Abucheri](https://github.com/Abucheri/)>
