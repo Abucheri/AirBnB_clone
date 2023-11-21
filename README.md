@@ -1034,6 +1034,9 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 			- `styles/100-places.css`: for the places style
 	<img width="2160" alt="task 9" src="https://github.com/Abucheri/AirBnB_clone/assets/24778489/b7e6f47f-7ddb-4350-ac92-e6d1906da2ac">
 
+10. Flex
+	- Improve the Places section by using [Flexible boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) for all Place articles
+	- [Flexbox Froggy](https://flexboxfroggy.com/)
 
 ### Project Authors:
 - O'Brien Abucheri <[Abucheri](https://github.com/Abucheri/)>
