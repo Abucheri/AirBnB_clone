@@ -1045,5 +1045,14 @@ Before starting, please fork or clone the repository `AirBnB_clone` from your pa
 		- redesign search bar depending of the width
 		- etc.
 
+12. Accessibility
+	- Improve the page by adding [Accessibility support](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
+	- Examples:
+		- Colors contrast
+		- Header tags
+		- etc.
+	- Well done on completing this project! Let the world hear about this milestone achieved.
+	- [Click here to tweet!](https://twitter.com/home)
+
 ### Project Authors:
 - O'Brien Abucheri <[Abucheri](https://github.com/Abucheri/)>
