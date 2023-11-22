@@ -2,16 +2,14 @@
 
 /* Footer Styles */
 footer {
-	background-color: #FFF;
+	background-color: white;
 	height: 60px;
 	width: 100%;
 	border-top: 1px solid #CCCCCC;
-	/* text-align: center; */
-	line-height: 60px;
-	position: relative;
-	bottom: 0;
-	display:flex;
-	flex-direction: column;
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: absolute;
+	bottom: 0;
+	line-height: 60px;
 }
